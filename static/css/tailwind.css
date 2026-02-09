@@ -1345,7 +1345,7 @@ video {
 
 .az{
   --tw-bg-opacity: 1;
-  background-color: rgba(255, 255, 255, 0.70);
+  background-color: rgb(255, 255, 255);
 }
 
 .a1h{
@@ -2082,6 +2082,15 @@ body {
 @media (min-width: 375px) and (max-width: 768px) { 
   .a2{
     padding-top: 50px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 740px) { 
+  body, html{
+    overflow-x:hidden
+  }
+  .a2{
+  padding-top: 50px;
   }
 }
 
